@@ -1,0 +1,242 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+html,
+body,
+header {
+    height: 100%;
+   background:rgba(180, 169, 106, 0.075);
+   /* font-family: sans-serif; */
+   color:rgb(83, 78, 78);
+}
+
+* {
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans' ,  sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  color:  rgba(211, 193, 94, 0.808);
+}
+
+a  {
+  color: rgb(97, 96, 96);
+}
+a:hover {
+  color: rgba(180, 169, 106, 0.39);
+}
+
+hr {
+  background-color: rgb(180, 169, 106);
+}
+
+/* NAVBAR  BRAND*/
+.navbar-brand.d-none.d-lg-block, .navbar-brand.d-lg-none{
+  text-transform: uppercase;
+  color: rgb(180, 169, 106);
+  text-align: center;
+}
+
+/* NAVBAR ON ALL SIZES */
+.navbar {
+  background:rgba(180, 169, 106, 0.075);
+  padding-bottom:12px;
+}
+
+.navbar.navbar-expand-lg.navbar-light li a{
+    color:  rgb(180, 169, 106);
+font-size: 1.2rem;
+  }
+
+ .navbar-toggler {
+   margin-right: 5px;
+  }
+
+/* SOCIal media link icons */
+.fa-facebook, .fa-instagram, .fa-twitter,  .fa-google, .fa-linkedin {
+color: rgb(97, 96, 96);
+padding:8px;
+}
+
+   img {
+background: rgba( 255, 255, 255, 0.10 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 14.0px );
+-webkit-backdrop-filter: blur( 14.0px );
+border-radius: 15px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+
+.item-content {
+  padding:10px;
+}
+
+/* FORM */
+.form-control::placeholder {
+  color:rgb(165, 165, 165);
+  opacity:0.6;
+  font-size: 0.9rem;
+}
+
+.form-select {
+  color:rgb(83, 78, 78);
+}
+
+/* Buttons */
+.btn {
+  border: none;
+  outline: none;
+  background-color:  rgb(180, 169, 106);
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: rgba(139, 132, 90, 0.377);
+}
+
+/* Add a dark background color to the active button */
+.btn.active.filter-button {
+  background-color:  rgba(180, 169, 106, 0.404);
+}
+
+.filter-button {
+  margin:3px;
+}
+
+/* BG on footer */
+.backgroundcolor {
+  background: rgba(180, 169, 106, 0.534);
+}
+
+footer {
+
+   color: rgb(92, 91, 91);
+ 
+ }
+
+ footer a {
+   text-decoration: none;
+    color: rgb(179, 20, 179);
+  }
+ 
+
+/* MEDIA QUIERIES */
+
+@media only screen and (max-width:575.99px){
+
+  .navbar-brand.d-lg-none {
+padding-left: 20px;
+  }
+
+  .navbar-toggler-icon {
+    width: 20px !important;
+    height:30px !important;
+  }
+
+  .navbar-brand.d-lg-none {
+    font-size: 1rem;
+    }
+
+    #navbarSupportedContent {
+      padding-left: 20px;
+      font-size: 1rem;
+    }
+   .btn.btn-primary.filter-button, .btn.btn-primary.active.filter-button {
+font-size: 0.8rem;
+margin-bottom: 8px;
+   }
+
+   .filter.filter-basic.text-center  {
+    margin: 0 6px;
+   }
+
+   .item-content {
+     max-width:250px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
+   .btn.btn-primary.btn.mx-2 {
+     margin:2px;
+     padding:10px;
+     font-size: 0.8rem;
+  }
+
+  .text-center.justify-content-center.w-responsive.col.pb-5 {
+    margin: 0 -15px 15px;
+    text-align: left;
+  }
+  .md-6.followme {
+    text-align: center;
+  }
+
+  #contact-form {
+    margin: 0 -15px;
+  }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+.item-content  {
+    max-width:400px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .btn.btn-primary.filter-button {
+    margin:5px;
+    font-size: 1.rem;
+  }
+  #contact {
+   padding:5px;
+   margin: auto;
+  }
+
+  .filter-gallery {
+    margin: 0 15px;
+  }
+
+ }
+
+@media only screen and (min-width:769px){
+#intro {
+  margin:0 20px;
+}
+#contact {
+  padding: 0 50px;
+}
+.btn.btn-success.btn-send {
+  float:right; 
+  font-size: 1rem;
+}
+.filter-gallery {
+  padding: 0 30px;
+}
+ .navbar-brand { 
+padding-left:35px;
+} 
+#navbarSupportedContent {
+
+  padding-left: 130px;
+    }
+
+    #cont {
+      padding-right: 130px;
+    }
+}
+
+@media only screen and(min-width: 992px){ 
+form {
+ padding: 20px 70px;
+}
+.filter-gallery {
+  padding: 0 40px;
+}
+
+
+}
+

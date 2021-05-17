@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title> Photography Website</title>
+    <!-- Bootstrap CSS and JS-->  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="portfoliophotography.css" rel="stylesheet"  type="text/css">
+    <!-- font awesome link-->
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.11.0/css/all.css">
+<!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+  </head>
+ <body> 
+     
+  <!-- NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid"> 
+        <!--  Show this only on mobile to medium screens  -->
+          <a class="navbar-brand d-lg-none" href="#intro">LJ Photography</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>     
+        <div class="collapse navbar-collapse justify-content-between"  id="navbarSupportedContent">       
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link home" href="homephotography.html" >Home </a>
+            </li>        
+          </ul>                 
+      <!--   Show this only lg screens and up   -->
+          <a class="navbar-brand d-none d-lg-block" href="#intro">Jasons L Photography</a>
+       
+          <ul class="navbar-nav">      
+            <li class="nav-item">
+              <a class="nav-link contact" id="cont" href="#contact">Contact</a>
+            </li>
+            <a href="https://twitter.com" class="twitter d-lg-none"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="https://www.facebook.com"  class="facebook d-lg-none"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="https://www.instagram.com"  class="instagram d-lg-none"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="https://www.linkedin.com" class="linkedin d-lg-none"><i class="fab fa-linkedin fa-lg"></i></a>
+          </ul>
+        </div>
+      </div>
+      </nav>
+    
+ 
+     <!-- Gallery H2-->
+      <h2 class="text-center my-5" id="intro"> Portfolio & Gallery </h2>
+ 
+      <!-- GALLERY BUTTONS -->
+<div class="filter filter-basic text-center ">
+  <div class="filter-nav mb-5">
+    <button class="btn btn-primary active filter-button" data-filter="">All</button>
+    <button class="btn btn-primary filter-button" data-filter="portrait">Portrait</button>
+    <button class="btn btn-primary filter-button" data-filter="modelling">Modelling</button>
+    <button class="btn btn-primary filter-button" data-filter="family">Family</button>
+    <button class="btn btn-primary filter-button" data-filter="babies">Babies</button>
+    <button class="btn btn-primary filter-button" data-filter="events">Events</button>
+    <button class="btn btn-primary filter-button" data-filter="nature">Nature</button>
+  </div>
+  <!-- GALLERY-->
+  <div class="filter-gallery">
+    <div class="row">
+
+      <!-- PORTRAIT GALLERY-->
+      <div class="col-md-3 my-1 gallery">
+        <div class="" data-category="portrait">
+          <div class="item-content">
+            <img src="images/photography/gallery/portrait1.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="portrait">
+          <div class="item-content">
+            <img src="images/photography/gallery/portrait2.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="portrait">
+          <div class="item-content">
+            <img src="images/photography/gallery/portrait3.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="portrait">
+          <div class="item-content">
+            <img src="images/photography/gallery/portrait4.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+ <!-- MODELLING GALLERY-->
+      <div class="col-md-3 my-1">
+        <div class="" data-category="modelling">
+          <div class="item-content">
+            <img src="images/photography/gallery/model1.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="modelling">
+          <div class="item-content">
+            <img src="images/photography/gallery/model2.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="modelling">
+          <div class="item-content">
+            <img src="images/photography/gallery/model3.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="modelling">
+          <div class="item-content">
+            <img src="images/photography/gallery/model4.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+       <!-- FAMILY GALLERY-->
+      <div class="col-md-3 my-1">
+        <div class="" data-category="family">
+          <div class="item-content">
+            <img src="images/photography/gallery/family1.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="family">
+          <div class="item-content">
+            <img src="images/photography/gallery/family2.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="family">
+          <div class="item-content">
+            <img src="images/photography/gallery/family3.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="family">
+          <div class="item-content">
+            <img src="images/photography/gallery/family4.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- BABIES GALLERY-->
+      <div class="col-md-3 my-1">
+        <div class="" data-category="babies">
+          <div class="item-content">
+            <img src="images/photography/gallery/babies1.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="babies">
+          <div class="item-content">
+            <img src="images/photography/gallery/babies2.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="babies">
+          <div class="item-content">
+            <img src="images/photography/gallery/babies3.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="babies">
+          <div class="item-content">
+            <img src="images/photography/gallery/babies4.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- EVENT  GALLERY-->
+      <div class="col-md-3 my-1">
+        <div class="" data-category="events">
+          <div class="item-content">
+            <img src="images/photography/gallery/event1.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="events">
+          <div class="item-content">
+            <img src="images/photography/gallery/event2.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="events">
+          <div class="item-content">
+            <img src="images/photography/gallery/event3.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="events">
+          <div class="item-content">
+            <img src="images/photography/gallery/event4.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- NATURE GALLERY -->
+      <div class="col-md-3 my-1">
+        <div class="" data-category="nature">
+          <div class="item-content">
+            <img src="images/photography/gallery/nature1.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="nature">
+          <div class="item-content">
+            <img src="images/photography/gallery/nature2.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="nature">
+          <div class="item-content">
+            <img src="images/photography/gallery/nature3.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 my-1">
+        <div class="" data-category="nature">
+          <div class="item-content">
+            <img src="images/photography/gallery/nature4.jpg" alt="image" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+<!-- 3 BUTTONS TO NAVIGATE-->
+<div class="d-flex justify-content-center mt-5 pt-4 mx-auto">
+  <a class="btn btn-primary  btn mx-2" href="#intro" role="button"> Scroll to Top</a>
+  <a class="btn btn-primary  btn mx-2" href="homephotography.html" role="button"> Home Page</a>
+  <a class="btn btn-primary  btn mx-2" href="#contact" role="button"> Get in Touch</a>  
+  </div>
+
+
+<!-- contact form -->
+<section id="contact" class="p-2">
+  <div class="col-md-12">
+          <div class="container p-5  justify-content-center">
+            
+           <!-- contact form heading -->
+              <h2 class="h1-responsive font-weight-bold text-center col-md mb-3">Ready to get this party started ? </h2>
+              <h3  class="text-center"> Let's do this! </h3>
+              <hr class="mt-2 mb-5">
+              <!-- contact form description -->
+              <p class="text-center justify-content-center  w-responsive col pb-5"> 
+                Now that you’ve gotten to know me and my work a little bit, help me get to know you! 
+                The more details you give the better I’ll be able to help you create lovely pictures of your dreams! 
+                Looking forward hearing from you! </p>              
+           
+              <div class="row  justify-content-center">
+                  <div class="col">
+                   
+                    <!-- FORM -->
+                  <form id="contact-form" data-netlify="true" method="POST" role="form">
+                  <div class="messages"> </div>
+                  <div class="controls"> 
+                      <div class="row">
+  
+                      <!-- NAME -->
+                      <div class="col-md-6">
+                          <div class="form-group  mb-2">
+                              <label for="form_name"> Name: * </label>
+                          <input type="text" id="form_name" name="name" class="form-control" minlength="3" required="required" placeholder="Full name" data-error="Name is required">                     
+                          <div class="help-block with-errors"></div>
+                          </div>
+                      </div>
+  
+                      <!-- EMAIL -->
+                      <div class="col-md-6">
+                          <div class="form-group  mb-2">
+                              <label for="form_email"> Email: * </label>
+                          <input type="email" id="form_email" name="email" class="form-control" required="required" placeholder="Email" data-error="Valid Email is required">                       
+                          <div class="help-block with-errors"></div>
+                      </div>
+                      </div>
+                      </div>
+
+                      <!-- selection of photography type -->
+                      <select class="form-select my-2" aria-label="Default select example"  required="required">
+                        <option selected> Select Type of Photography: *</option>
+                        <option value="1">Portrait</option>
+                        <option value="2">Modelling</option>
+                        <option value="3">Nature </option>
+                        <option value="4">Family</option>
+                        <option value="5">Babies</option>
+                        <option value="6">Event</option>
+                      </select>
+                    <!-- Q1-->
+                      <div class="row mt-2">
+                      <div class=" col-md-12 form-group  mb-1">
+                          <label for="form_location"> Where would you like to take photos? * </label>
+                      <input type="text" id="form_location" name="location" class="form-control" minlength="3" required="required" placeholder="City, State" data-error="Location is required">                      
+                      <div class="help-block with-errors"></div>
+                  </div>
+                   
+                  <!-- Q2-->                  
+                      <div class=" col-md-12 form-group  mb-1">
+                          <label for="form_date"> When would you like to take photos? * </label>
+                      <input type="text" id="form_date" name="date" class="form-control" minlength="2" required="required" placeholder="Select date" data-error="Date is required">                      
+                      <div class="help-block with-errors"></div>
+                  </div>
+              </div>
+              <!-- Budget Q3-->
+              <div class="row"> 
+              <div class=" col-md-12 form-group  mb-0">
+                <label for="form_location"> Estimated photo budget: * </label>
+            <input type="text" id="form_budget" name="budget" class="form-control" minlength="2" required="required">                           
+            <div class="help-block with-errors"></div>
+        </div>
+    </div>       
+
+                         <!-- MESSAGE -->
+                      <div class="row">
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <label for="form_message">Tell me more about you! Or have you got any question? Ask away! * </label>
+                          <textarea type="text" id="form_message" name="message" class="form-control md-textarea" placeholder="Message" rows="3" minlength="20" required="required" data-error="Please, leave us a message" ></textarea>
+                          <div class="help-block with-errors"></div>
+                      </div>
+                      </div>
+  
+                      <!--SEND BUTTON-->
+                      <div class="d-grid d-md-block  mt-4 text-left  text-light">
+                        <input type="submit" class="btn btn-success btn-send" value="Send">
+                    </div>             
+                       </div>
+                      </div>
+                   </form>
+                 </div>
+                 </div>
+                 </div>
+                </div>
+                 </section>   
+  
+
+  <!-- 4  IMAGES AT THE END -->
+  <div class="backgroundcolor">
+    <div class="container-fluid">    
+    <div class="row my-3 pt-4"> 
+    
+      <div class="button d-flex text-align-center justify-content-center  md-6"> 
+        <p class="md-6 followme"> Follow me on Social Media for latest pictures!</p>     
+      </div>
+   
+      <div class="col">
+      <div class="d-block mt-4 h-100">
+            <img class="img-fluid img" src="images/photography/gallery/image9.jpg" alt="nature">
+          </div>
+    </div>
+    <div class="col">
+      <div class="d-block mt-4 h-100">
+            <img class="img-fluid img" src="images/photography/gallery/image10.jpg" alt="nature">    
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="d-block mt-4 h-100">
+            <img class="img-fluid img" src="images/photography/gallery/image11.jpg" alt="nature">
+      </div>
+    </div>
+    <div class="col">
+      <div  class="d-block mt-4 h-100">
+            <img class="img-fluid img" src="images/photography/gallery/image12.jpg" alt="nature">
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    <!-- SOCIAL MEDIA ICON LINKS-->
+    <div class="row"> 
+    <div class="social-links-nav col d-flex justify-content-center mt-3 mb-1">
+      <a href="https://twitter.com"  class="twitter"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="https://www.facebook.com"  class="facebook"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="https://www.instagram.com"  class="instagram"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="https://www.linkedin.com" class="linkedin"><i class="fab fa-linkedin fa-lg"></i></a>
+    </div>
+  </div>
+
+<!--  2 BUTTONS TO NAVIGATE-->
+    <div class="button d-flex   justify-content-center mb-3"> 
+      <a class="nav-link" href="#intro" role="button">Back to Top </a>
+        <a class="nav-link" href="homephotography.html" role="button"> Home Page</a>
+      </div>
+    
+    <!-- footer-->
+        <footer class="text-center">  © 2021 Designed and Developed by <a href="https://www.kristinalabayova.tech/"> Kristina Labayova  &#128156;  </a></footer>
+     </div>
+       
+     <!-- JQuery + local JS-->
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="photography.js"> </script>
+    
+    </body>
+    </html>
