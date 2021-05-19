@@ -159,6 +159,7 @@ border-radius: 10px;
 
 footer {
    color: rgb(92, 91, 91);
+   padding-bottom:20px;
  }
 
  footer a {
@@ -407,10 +408,6 @@ margin-bottom: -90px;
   .btn.btn-success.btn-send {
     float:right; 
     font-size: 1rem;
-  }
-
-  #intro {
-    background-size: auto 120%;   
   }
   
   .mt-2.hr{

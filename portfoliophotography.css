@@ -74,6 +74,10 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   padding:10px;
 }
 
+.btn.btn-primary.btn.mx-2 {
+  font-size: 1rem;
+  margin: 10px;
+}
 /* FORM */
 .form-control::placeholder {
   color:rgb(165, 165, 165);
@@ -115,7 +119,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 footer {
 
    color: rgb(92, 91, 91);
- 
+ padding-bottom:20px;
  }
 
  footer a {
