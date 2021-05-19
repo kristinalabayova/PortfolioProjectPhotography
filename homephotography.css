@@ -17,18 +17,6 @@ header,
   font-family: 'Noto Sans' ,  sans-serif;
 }
 
-#intro h1 {
-    color:rgb(36, 36, 36);
-   text-transform: uppercase;
-   text-shadow: 4px 4px  rgb(180, 169, 106);
-}
-
-#intro p {
-  color:rgb(36, 36, 36);
-  text-transform: uppercase;
-  text-shadow: 4px 4px rgba(214,205,110,1);
-}
-
 #intro {
     background: url("./images/photography/aboutmecoverphoto.jpg")no-repeat center center;
     -webkit-background-size: cover;
@@ -37,6 +25,7 @@ header,
     background-size: cover;   
     opacity: 0.9;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   color:  rgba(211, 193, 94, 0.808);
@@ -55,8 +44,8 @@ hr {
 }
 /* full navbar */
 .navbar {
-  background:rgba(180, 169, 106, 0.075);
-  padding-bottom:12px;
+  /* background:rgba(180, 169, 106, 0.075); */
+  padding-bottom:10px;
 }
 /* links in navbar  for every size */
 .collapse.navbar-collapse.justify-content-between ul li a {
@@ -67,6 +56,10 @@ hr {
     color:  rgb(180, 169, 106);
 font-size: 1.2rem;
   }
+
+  .navbar-toggler {
+    margin-right: 5px;
+   }
 
   /*social link icons */
 .fa-facebook, .fa-instagram, .fa-twitter,  .fa-google, .fa-linkedin {
@@ -195,9 +188,11 @@ footer {
     margin-left:auto;
     margin-right:auto;
   }
+
+
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575.99px) {
   .row.text-center.text-lg-left.latestwork { 
 margin-left:auto;
 margin-right:auto;
@@ -205,6 +200,21 @@ display:block;
 max-width:270px;  
   }
 
+  .navbar-brand.d-lg-none {
+    padding-left: 20px;
+    font-size: 1rem;
+      }
+
+  #navbarSupportedContent {
+    padding-left: 20px;
+    font-size: 1rem;
+  }
+
+  .navbar-toggler-icon {
+    width: 20px !important;
+    height:30px !important;
+  }
+  
   .my-3.pt-3.text-left {
     padding:  0 25px; 
   }
@@ -213,16 +223,9 @@ max-width:270px;
     text-align: left;
   }
 
-.navbar-brand.d-lg-none {
-font-size: 1rem;
-}
-.navbar-toggler-icon {
-  width: 30px !important;
-  height:30px !important;
-}
 
 .col-md-8.px-5.text-left.content p {
-  text-align: left;
+ padding-bottom:20px;
 }
 
 .col-md-6.contact  {
@@ -244,12 +247,11 @@ margin-right: 20px;
 }
 
 .card {
-margin-top: 0;
-margin-bottom: -60px;
+margin: 0 40px -60px;
 }
 
 .container-fluid.my-5.testimonials h3 {
-padding-top:20px;
+padding-top:10px;
 }
 
 .card.p-3.text-center.px-4 {
@@ -271,17 +273,20 @@ margin: 0 -70px;
   text-align: center;
 }
 
+#me { 
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+        max-width: 250px;
+        border-radius: 50px;
+    }
+
 }
 
 
 
-@media (max-width: 768px) {
-  #me { 
-display: block;
-margin-left:auto;
-margin-right: auto;
-      max-width: 250px;
-  }
+@media (max-width: 767.99px) {
+
   .content {
     text-align: center;
   }
@@ -292,25 +297,93 @@ margin-right: auto;
 }
 
 
-@media (min-width: 576px) and (max-width: 768px) { 
+@media (min-width: 576px) and (max-width: 767.99px) { 
 
 .col-md-8.px-5.text-left.content {
-padding:  0 20px;
+ padding:  0 -20px; 
+/* text-align: left;  */
+}
+.col-md-6.contact ul li{
 text-align: left;
 }
-.img-fluid {
-  margin-top:75px;
+
+#me { 
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+        max-width: 300px;
+        border-radius: 50px;
+    }
+
+.navbar-brand.d-lg-none {
+  padding-left: 20px;
+  font-size: 1rem;
+    }
+
+#navbarSupportedContent {
+  padding-left: 20px;
+  font-size: 1rem;
 }
 
+.navbar-toggler-icon {
+  width: 20px !important;
+  height:30px !important;
+}
+
+
+.col-md-6.contact {
+padding-top:50px;
+}
+
+.h1-responsive.font-weight-bold.text-center.col-md.mb-3 {
+font-size: 1.5rem;
+}
+.text-center.letsdothis {
+  font-size: 1.3rem;
+}
+
+.text-center.justify-content-center.w-responsive.col.p-5  {
+margin: 0 -80px;
+}
+
+.mt-2.mb-5.testimonials {
+margin: 0 120px;
+}
+.col-md-6.contact, .aboutme {
+  margin: 0 -50px;
+
+}
+.img-fluid {
+  margin: 30px 0 20px;
+}
+
+
+/* about me */
+.my-3.pt-3.text-left.about {
+margin: 0 -50px;
+}
+
+.row.text-center.text-lg-left.latestwork {
+padding-top:50px;
+}
+
+#contact-form {
+  margin: 0 -80px;
+}
 .luke-testimonials {
   margin-bottom: 34px;
+}
+.aboutme {
+  text-align: left;
+  padding: 0 -20px;
 }
 
 .button.d-flex.justify-content-center.my-5.md-6 {
 margin-left:20px;
 }
-.mt-2.hr {
-  margin-bottom:-20px;
+
+.mt-2.hr{
+  margin-bottom: -30px;
 }
 .button.d-flex.justify-content-center.sm-6 {
 margin-bottom: -90px;
@@ -318,29 +391,89 @@ margin-bottom: -90px;
 
 }
 
-
-@media only screen and (min-width:769px){
-
+  @media (min-width: 768px) and (max-width: 991.98px) {
   #contact {
     padding: 0 50px;
   }
+
+  .luke-testimonials {
+    margin-bottom: 35px;
+  }
+
+  .img-fluid {
+    margin-top:75px;
+  }
+
   .btn.btn-success.btn-send {
     float:right; 
     font-size: 1rem;
   }
 
+  #intro {
+    background-size: auto 120%;   
+  }
+  
   .mt-2.hr{
     margin-bottom: -30px;
   }
 
+  .mt-2.mb-5.testimonials {
+    margin: 0 130px;
+    }
+
+   .md-6.followme {
+margin-bottom: -50px;
+   }
+
   .row.text-center.text-lg-left.latestwork {
-   margin: 80px 0;
+   margin: 20px 0;
   }
+
+  .navbar-brand.d-lg-none {
+    padding-left: 20px;
+    font-size: 1rem;
+      }
+  
+  #navbarSupportedContent {
+    padding-left: 20px;
+    font-size: 1rem;
   }
   
-  @media only screen and(min-width: 992px){ 
-  form {
-   padding: 0 70px;
+  .navbar-toggler-icon {
+    width: 20px !important;
+    height:30px !important;
   }
+
   }
   
+  @media (min-width: 992px) and (max-width: 1199.98px)  { 
+ 
+    #intro {
+      background-size: auto 130%;   
+    }
+   
+.mt-2.hr.latestwork {
+margin-bottom: 60px;
+}
+  
+
+  .mt-2.mb-5.testimonials {
+    margin: 0 120px;
+    }
+  }
+  
+  @media (min-width: 1200px)   { 
+
+    .mt-2.mb-5.testimonials {
+      margin: 0 70px;
+      }
+      .mt-2.hr.latestwork {
+        margin-bottom: 60px;
+        }
+
+        #intro {
+
+          background-size: auto 130%;   
+        }
+      }
+   
